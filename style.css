@@ -36,10 +36,13 @@ body {
     border-top: 1px solid white;;
   }
   
-  .hour {
+  .hour-row {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    text-align:center;
   }
   
   .past {
