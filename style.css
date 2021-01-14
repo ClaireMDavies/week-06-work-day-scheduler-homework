@@ -66,10 +66,17 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    text-align: center;
+    padding-top: 25px;
+
   }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
+    
+    
+   
+  .saveBtn:hover {
+    font-size: 25px;
+    background-color: #035769;
     transition: all .3s ease-in-out;
   }
+  
   
