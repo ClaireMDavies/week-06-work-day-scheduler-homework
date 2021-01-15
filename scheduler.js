@@ -2,7 +2,13 @@
     
 
 $(document).ready(function()
-{   //retrieving the day
+{  
+    //writing local storage data to page on page load
+    loadSchedule();
+    
+
+
+    //retrieving the day
     var todayDate = moment().format("dddd, MMMM Do YYYY");
     //retrieving the hour
     var currentHour = moment().format("HH");
@@ -31,13 +37,32 @@ $(document).ready(function()
             // current hour
             $(this).addClass("present");
         }
+        
+        
+    
+
     });
+    //saving the information in relevant hour to local storage
+    $(".saveBtn").click(function() {
 
-
-
-
-
+        var buttonId = $(this).attr("id");
+        var textAreaId = buttonId.slice(-7);
+        
+        var rowText = $("#" + textAreaId).val();
+        localStorage.setItem(textAreaId, rowText);
+        console.log(localStorage);
+    });
     
-    
+
 });
 
+//retrieving info from local storage
+function loadSchedule() {
+
+    $(".description").each(function(index) {
+        var rowId = $(this).attr("id");
+        var hourText = localStorage.getItem(rowId);
+
+        $("#" + rowId).val(hourText);
+    });
+}
