@@ -5,8 +5,6 @@ $(document).ready(function()
 {  
     //writing local storage data to page on page load
     loadSchedule();
-    
-
 
     //retrieving the day
     var todayDate = moment().format("dddd, MMMM Do YYYY");
@@ -37,11 +35,8 @@ $(document).ready(function()
             // current hour
             $(this).addClass("present");
         }
-        
-        
-    
-
     });
+
     //saving the information in relevant hour to local storage
     $(".saveBtn").click(function() {
 
@@ -50,10 +45,8 @@ $(document).ready(function()
         
         var rowText = $("#" + textAreaId).val();
         localStorage.setItem(textAreaId, rowText);
-        console.log(localStorage);
+        
     });
-    
-
 });
 
 //retrieving info from local storage
@@ -66,3 +59,6 @@ function loadSchedule() {
         $("#" + rowId).val(hourText);
     });
 }
+
+ // Added code to clear local storage.  Commented out as not required for functionality, but could be linked to a clear button if required.
+ //  localStorage.clear()
