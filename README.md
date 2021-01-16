@@ -12,6 +12,11 @@ A similar process was undertaken with taking the text from the text area and wri
 
 Then to retrieve the information from local storage on page load I write a function that would go through each textarea class, attribute the id from each textarea row and where there was a value associated with that id, it would be displayed in the correct area. This function was then called at the start of the .js file <br>
 
-I added in the clear function for local storage, but have commented it out, as it is not required for the page to function correctly, but it is useful to have there to clear it all down for when submitting it. 
+I added in the clear function for local storage, but have commented it out, as it is not required for the page to function correctly, but it is useful to have there to clear it all down for when submitting it. <br>
 
 ## The finished work <br>
+
+The live site is found at [GitHubPages]: https://clairemdavies.github.io/week-06-work-day-scheduler-homework/
+
+A Screenshot of the page follows: <br>
+![workdayscheduler3.png](assets/workdayscheduler3.png) <br>
