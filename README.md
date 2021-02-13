@@ -5,9 +5,24 @@
 To create a scheduling page that would change the colouring of each hour block depending on whether it was in the past, present or future. As well as allowing the user to input information, and for the page to retain that information when the page is refreshed. <br>
 
 
-## The finished work <br>
+## Live link to the deployed application <br>
 
-The live site is found at [GitHubPages]: https://clairemdavies.github.io/week-06-work-day-scheduler-homework/
+The live site is found at [GitHubPages](https://clairemdavies.github.io/work-day-scheduler-app/) 
 
-A Screenshot of the page follows: <br>
+## Screenshots of the application <br>
+
+Screenshots of the page follows: <br>
 ![workdayscheduler3.png](assets/workdayscheduler3.png) <br>
+
+## Technologies used
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap
+- Font Awesome
+- Google APIS
+
+## License <br>
+
+## Contact Information <br>
