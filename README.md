@@ -22,6 +22,7 @@ Screenshots of the page follows: <br>
 - Bootstrap
 - Font Awesome
 - Google APIS
+- Moment.js
 
 ## License <br>
 
