@@ -40,8 +40,8 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
-    padding-bottom: 15px;
-    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 30px;
     text-align:center;
   }
   
@@ -67,7 +67,7 @@ body {
     background-color: #06AED5;
     color: white;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 30px;
   }
           
   .saveBtn:hover {
