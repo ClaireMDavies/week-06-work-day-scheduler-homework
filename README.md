@@ -13,6 +13,7 @@ The live site is found at [GitHubPages](https://clairemdavies.github.io/work-day
 
 Screenshots of the page follows: <br>
 ![empty schedule](assets/workdayscheduler.png) <br>
+![filled schedule with save button pressed](assets/workdayscheduler-2.png)<br>
 
 ## Technologies used
 - HTML
